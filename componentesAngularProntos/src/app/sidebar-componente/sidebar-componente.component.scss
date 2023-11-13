@@ -1,0 +1,77 @@
+/*
+
+Estilizando o componente.html que renderiza um sidebar usando os identificadores de tags class
+
+sidebar
+    nav
+
+        active
+            menu-link
+                icon-home
+                text
+
+        li
+            menu-link
+                icon-users
+                text
+
+        li
+            menu-link
+                icon-play
+                text
+
+        li
+            menu-link
+                icon-cog
+                text
+
+        li
+            menu-link
+                icon-mail
+                text
+
+criar o c[odigo scss com essas classes e tags identificadores
+
+*/
+
+.sidebar{
+    //Background em degradê
+    background: linear-gradient(180deg, #5f01b8 0%, rgb(45, 1, 75) 50%, #000000 100%);
+    
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.3s;    
+    list-style: none;
+
+    border-radius: 0 0 0 0;
+
+    li{
+        margin-bottom: 10px;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        
+        a{
+            text-decoration: none;
+            color: #fff;
+            transition: 0.3s;
+
+            &:hover{
+                color: #5df8b0;
+            }
+        }
+        
+        list-style: none;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+}
+
