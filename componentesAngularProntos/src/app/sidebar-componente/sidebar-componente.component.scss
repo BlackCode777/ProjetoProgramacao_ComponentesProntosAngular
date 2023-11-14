@@ -54,9 +54,15 @@ criar o c[odigo scss com essas classes e tags identificadores
 
     li{
         margin-bottom: 10px;
-        position: relative;
+        position:fixed;
+
+        // Lista distribuida em colunas
         display: flex;
-        justify-content: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
         
         a{
             text-decoration: none;

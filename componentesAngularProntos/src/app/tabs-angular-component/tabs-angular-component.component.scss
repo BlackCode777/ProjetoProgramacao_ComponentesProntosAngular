@@ -1,0 +1,23 @@
+
+.nav-pills {
+    border-bottom: 1px solid #ffffff;
+}
+.nav-pills li a {
+    background: #5f01b8;
+    color: #fff;
+    display: block;
+    line-height: 1em;
+    padding: 7px 15px;
+    border-radius: 0;
+    font-size: 20px;
+    border: none;
+    margin: 1px 2px 0;
+}
+ul li a {
+    text-decoration: none;
+}
+.nav-pills li a.active {
+    background: #6d34ca;
+    border: none;
+    color: #FFF;
+}
